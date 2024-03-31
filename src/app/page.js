@@ -24,7 +24,7 @@ export default function Home() {
 
 
     <ToastContainer />
-      <div onClick={notify} className=" m-8" style={{background: 'transparent',
+      <div onClick={notify} className=" mb-20 sm:mb-8 md:mb-8" style={{background: 'transparent',
           backgroundImage: 'linear-gradient(90deg, rgba(157, 13, 61, 0) -13.1%, #DE502C 53.99%, #C6802C 113.76%), linear-gradient(90deg, rgba(157, 13, 61, 0) -13.1%, #DE502C 53.99%, #C6802C 113.76%)',
           backgroundClip: 'padding-box, border-box',
           backgroundOrigin: 'border-box',
